@@ -16,7 +16,7 @@ knowledge and how to, on creating there drink. Helping them achieve a step close
 ## API and Data Sample
 API:   www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin
 
-{
+
     "drinks": [
         {
             "strDrink": "3-Mile Long Island Iced Tea",
@@ -65,6 +65,14 @@ Creating and linking multiple css, javascript, and html files
 
 
 
+### Priority Matrix 
+
+
+<img width="1016" alt="Screen Shot 2021-08-01 at 11 07 50 PM" src="https://user-images.githubusercontent.com/87334634/127812116-4875a417-eb79-49fa-8d7b-d6f3f5d9eefd.png">
+
+### Priority Matrix 
+
+
 ### Goal
 
 Allow the user to find a drink of either choice or search. Giving them full knowledge of drink and creating it. 
@@ -75,9 +83,14 @@ Allow the user to find a drink of either choice or search. Giving them full know
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Styling CSS | H | 4hrs | -- | -- |
+| Javascript Function | H | 3hrs| -- | -- |
+| Adding Flexbox | H | 4hrs | -- | -- |
+| Fine Tuninge Website | H | 2hrs | -- | -- |
+| Media Query | H | 1hrs | -- | -- |
+| API functions | H | 3hrs | -- | -- |
+| HTML Page | H | 3hrs | -- | -- |
+| Total | H | --| -- | -- |
 
 
 
