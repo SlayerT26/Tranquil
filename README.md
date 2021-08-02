@@ -67,6 +67,8 @@ Creating and linking multiple css, javascript, and html files
 
 ### Priority Matrix 
 
+https://app.conceptboard.com/export/107ed6b8-86e8-4e0e-805a-ba05b3ef214e/versions/;hi=0;low=242
+
 
 <img width="1016" alt="Screen Shot 2021-08-01 at 11 07 50 PM" src="https://user-images.githubusercontent.com/87334634/127812116-4875a417-eb79-49fa-8d7b-d6f3f5d9eefd.png">
 
@@ -96,13 +98,9 @@ Allow the user to find a drink of either choice or search. Giving them full know
 
 ## Code Snippet-----
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+
+
 
 ## Change Log-----
  Use this section to document what changes were made and the reasoning behind those changes.  
