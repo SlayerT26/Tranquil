@@ -39,16 +39,22 @@ https://whimsical.com/cocktail-wireframe-NPZKeNxJgernrQRuQJWRrM
 
 #### MVP
 Randomizer Drink
-Navigation bar cordinating to specifific locations
+
+Navigation bar cordinating to specifific locations on website
+
 *Search cocktail = name
+
 *Specialty cocktail by liquor
+
 *Specialty cocktail by ingrediant
-Search bars
+
 
 #### PostMVP  
 
 Distinct CSS background and detail design
+
 Use of multiple API
+
 Creating and linking multiple css, javascript, and html files
 
 ## Project Schedule
@@ -56,7 +62,7 @@ Creating and linking multiple css, javascript, and html files
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
 |August 3| Pseudocode / actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
