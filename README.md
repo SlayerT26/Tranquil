@@ -90,7 +90,7 @@ Navigation Bar
 
 ### Goal
 
-Create a webpage, that will search a random drink. Give its name, ingrediants, and Instruction. 
+Create a webpage, that will search a random drink. Give its name, ingredients, and Instruction. 
 
 
 
