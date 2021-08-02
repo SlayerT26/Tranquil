@@ -1,61 +1,69 @@
 ## Project Name
 
-# Tranquil
+# Drink of the Day!!!
 
 
 
 
 ## Project Description
 
-Tranquil stands for calm and peaceful. I created this site to allow the user to find a drink of there choice and give them the 
-knowledge and how to, on creating there drink. Helping them achieve a step closer to tranquilty at the end of the day.
-
+Drink of the day, sounds exactly as it sounds. If you are tired of having the same old drink everyday. Why not change it up with our website. Drink of the Day!!!. Where you will have access to our drink data base. Click on the randomizer button and enjoy. Your! New! Drink! Of the day!
 
 
 
 ## API and Data Sample
-API:   www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin
+API:   www.thecocktaildb.com/api/json/v1/1/random.php
 
 
+    {
     "drinks": [
         {
-            "strDrink": "3-Mile Long Island Iced Tea",
-            "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/rrtssw1472668972.jpg",
-            "idDrink": "15300"
-        },
-        {
-            "strDrink": "69 Special",
-            "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vqyxqx1472669095.jpg",
-            "idDrink": "13940"
-        },
-
+            "idDrink": "13056",
+            "strDrink": "Wine Cooler",
+            "strDrinkAlternate": null,
+            "strCategory": "Punch / Party Drink",
+            "strAlcoholic": "Optional alcohol",
+            "strGlass": "Collins Glass",
+            "strInstructions": "Mix wine and soft drink. Pour into glass. Add ice.",
+            "strInstructionsDE": "Wein und Softdrink mischen. In das Glas gießen. Füge Eis hinzu.",
+            "strInstructionsFR": null,
+            "strInstructionsIT": "Mescolare vino e bibita. Aggiungi il ghiaccio. Versare nel bicchiere.",
+            "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/yutxtv1473344210.jpg",
+            "strIngredient1": "Red wine",
+            "strIngredient2": "Lemon-lime soda",
+            "strIngredient3": "Ice",
 
 ## Wireframes
 
 https://whimsical.com/cocktail-wireframe-NPZKeNxJgernrQRuQJWRrM
 
-![image](https://user-images.githubusercontent.com/87334634/127704128-8fdaf48e-1d14-4cae-98f9-dcf792e6c36d.png)
+![image](https://user-images.githubusercontent.com/87334634/127886267-eab4bea7-6777-43e8-9f94-7edbafdc3856.png)
+
+
 
 
 #### MVP
-Randomizer Drink
 
-Navigation bar cordinating to specifific locations on website
+CSS Detailing
 
-*Search cocktail = name
+Create a page that will search a Random Cocktail
 
-*Specialty cocktail by liquor
+Have Ingrediants and Instructions on random cocktail
 
-*Specialty cocktail by ingrediant
-
+Randomizer button for new random cocktail search
 
 #### PostMVP  
 
 Distinct CSS background and detail design
 
-Use of multiple API
+Seperate Page for Cocktail Search by Name
 
-Creating and linking multiple css, javascript, and html files
+Having Ingrediants and Instruction with searched cocktail
+
+Navigation Bar
+
+
+
 
 ## Project Schedule
 
@@ -64,26 +72,25 @@ Creating and linking multiple css, javascript, and html files
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 3| Pseudocode / actual code | Incomplete
-|August 4| Initial Clickable Model  | Incomplete
-|August 5| MVP | Incomplete
+|August 3| Pseudocode / Coding/ Javascript API/ MVP Start| Incomplete
+|August 4| MVP completion/ Initial Clickable Model  | Incomplete
+|August 5| PostMVP/ CSS Fine Detailing/ Last minute Update | Incomplete
 |August 6| Presentations | Incomplete
 
 
 
 ### Priority Matrix 
 
-https://app.conceptboard.com/export/107ed6b8-86e8-4e0e-805a-ba05b3ef214e/versions/;hi=0;low=242
+ https://app.conceptboard.com/board/fik1-uuy5-hoks-573u-pro6#item=tbUcrUWbZTlU
+ 
+ 
+<img width="771" alt="Screen Shot 2021-08-02 at 9 07 09 AM" src="https://user-images.githubusercontent.com/87334634/127891795-3095ec69-2491-4b54-b337-eff350e6fa24.png">
 
-
-<img width="1016" alt="Screen Shot 2021-08-01 at 11 07 50 PM" src="https://user-images.githubusercontent.com/87334634/127812116-4875a417-eb79-49fa-8d7b-d6f3f5d9eefd.png">
-
-### Priority Matrix 
 
 
 ### Goal
 
-Allow the user to find a drink of either choice or search. Giving them full knowledge of drink and creating it. 
+Create a webpage, that will search a random drink. Give its name, ingrediants, and Instruction. 
 
 
 
@@ -92,13 +99,19 @@ Allow the user to find a drink of either choice or search. Giving them full know
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Styling CSS | H | 4hrs | -- | -- |
-| Javascript Function | H | 3hrs| -- | -- |
-| Adding Flexbox | H | 4hrs | -- | -- |
-| Fine Tuninge Website | H | 2hrs | -- | -- |
-| Media Query | H | 1hrs | -- | -- |
-| API functions | H | 3hrs | -- | -- |
 | HTML Page | H | 3hrs | -- | -- |
-| Total | H | --| -- | -- |
+| Javascript Functions | H | 4hrs| -- | -- |
+| Adding Flexbox | H | 4hrs | -- | -- |
+| API Ingredients | H | 2hrs | -- | -- |
+| API Instruction | H | 2hrs | -- | -- |
+| API Image | H | 2hrs | -- | -- |
+| Fine Tuninge Website | H | 3hrs | -- | -- |
+| Media Query | H | 1hrs | -- | -- |
+| DOM Manipulation | H | 4hrs | -- | -- |
+| Final CSS Detailing | H | 3hrs | -- | -- |
+| HTML Body Review | H | 2hrs | -- | -- |
+| Event Listeners | H | 2hrs | -- | -- |
+| Total | H | 36hrs| -- | -- |
 
 
 
@@ -109,4 +122,4 @@ Allow the user to find a drink of either choice or search. Giving them full know
 
 
 ## Change Log-----
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Updated MVP, PostMVP, WireFrame, and Priority Matrix
