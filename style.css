@@ -1,0 +1,53 @@
+header {
+  background-color: #c46767cd;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+  
+}
+.heading {
+  font-family: 'Great Vibes', cursive;
+  color: rgb(211, 190, 190);
+  font-size: 60px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+body {
+  background-image: url("Bar.jpeg");
+  background-size: cover;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+
+.middle {
+  text-align: center;
+  color: rgb(211, 190, 190);
+  background-color: #c46767cd;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 17px;
+}
+
+h2 {
+  padding: 6px 0px ;
+}
+
+.button1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+button {
+  border: none;
+  background-color: #c46767cd;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(211, 190, 190);
+}
+
+
+
+
