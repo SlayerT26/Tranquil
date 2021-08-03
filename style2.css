@@ -3,3 +3,54 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+ .drink_ingredient, .drink_image {
+  color: white;
+  background-color: #c46767cd;
+  display: inline-block;
+}
+
+
+.drink_image {
+  padding-left: 150px;
+  padding-top: 25px; 
+  padding-right: 60px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-right: black solid;
+  border-bottom: black solid;
+  border-width: 5px;
+}
+.drink_ingredient {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: 270px;
+  right: 9px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  padding-top: 9px;
+  border-left: black solid;
+  border-bottom: black solid;
+  border-width: 5px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+
+.drink_description {
+  position: relative;
+  background-color: #c46767cd;
+  color: white;
+  text-align: center;
+  width: 974px;
+  left: 100px;
+  height: 200px;
+  bottom: 275px;
+  border-top: black solid;
+  border-width: 5px;
+  font-family: 'Great Vibes', cursive;
+  
+
+  
+}
