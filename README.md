@@ -35,10 +35,14 @@ API:   www.thecocktaildb.com/api/json/v1/1/random.php
 
 ## Wireframes
 
+https://whimsical.com/cocktail-2-H1S1giKtGhD7jWN6ZhV3ZT
+
 https://whimsical.com/cocktail-wireframe-NPZKeNxJgernrQRuQJWRrM
 
-![image](https://user-images.githubusercontent.com/87334634/127886267-eab4bea7-6777-43e8-9f94-7edbafdc3856.png)
+![image](https://user-images.githubusercontent.com/87334634/128200923-a0eaf522-e263-456d-843a-b675db235110.png)
 
+
+![image](https://user-images.githubusercontent.com/87334634/128202171-d15342f2-271e-4315-9394-eb16308fb70c.png)
 
 
 
@@ -71,8 +75,8 @@ Navigation Bar
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 3| Pseudocode / Coding/ Javascript API/ MVP Start| Incomplete
+|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
+|August 3| Pseudocode / Coding/ Javascript API/ MVP Start| Complete
 |August 4| MVP completion/ Initial Clickable Model  | Incomplete
 |August 5| PostMVP/ CSS Fine Detailing/ Last minute Update | Incomplete
 |August 6| Presentations | Incomplete
@@ -98,16 +102,16 @@ Create a webpage, that will search a random drink. Give its name, ingredients, a
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Styling CSS | H | 4hrs | -- | -- |
-| HTML Page | H | 3hrs | -- | -- |
-| Javascript Functions | H | 4hrs| -- | -- |
+| Styling CSS | H | 4hrs | 2hrs | -- |
+| HTML Page | H | 3hrs | 3hrs | -- |
+| Javascript Functions | H | 4hrs| 5hrs | -- |
 | Adding Flexbox | H | 4hrs | -- | -- |
 | API Ingredients | H | 2hrs | -- | -- |
 | API Instruction | H | 2hrs | -- | -- |
-| API Image | H | 2hrs | -- | -- |
-| Fine Tuninge Website | H | 3hrs | -- | -- |
+| API Image | H | 2hrs | 2hrs | -- |
+| Fine Tuninge Website | H | 3hrs | 1hrs | -- |
 | Media Query | H | 1hrs | -- | -- |
-| DOM Manipulation | H | 4hrs | -- | -- |
+| DOM Manipulation | H | 4hrs | 2hrs | -- |
 | Final CSS Detailing | H | 3hrs | -- | -- |
 | HTML Body Review | H | 2hrs | -- | -- |
 | Event Listeners | H | 2hrs | -- | -- |
@@ -122,4 +126,7 @@ Create a webpage, that will search a random drink. Give its name, ingredients, a
 
 
 ## Change Log-----
- Updated MVP, PostMVP, WireFrame, and Priority Matrix
+ 
+ Updated wireframe
+ 
+ Updated time frame times
