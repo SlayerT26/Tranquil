@@ -11,7 +11,7 @@ img {
   border: rgba(135, 15, 15, 0.892) solid;
   border-width: 5px;
   margin-left: 180px;
-  margin-top: 180px;
+  margin-top: 80px;
   padding: 20px;
   background-color: #c46767cd;
 }
@@ -21,7 +21,13 @@ img {
   width: 350px;
   height: 350px;
   background-color: #c46767cd;
-  vertical-align: super;
+  position: absolute;
+  padding: 20px;
+  border: rgba(135, 15, 15, 0.892) solid;
+  border-width: 5px;
+  top: 60px;
+  margin-left: 55px;
+  text-align: center;
 }
 
 
