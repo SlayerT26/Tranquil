@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="/app.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./app.js"></script>
   <link rel="stylesheet" href="./style2.css">
   <title>Drink of the Day</title>
 </head>
@@ -13,17 +14,12 @@
 <body>
   <section>
     <div class="drink_image">
-      <img src="cocktail.jpeg" alt="cocktail" width="350" height="350">
+      <img width="350" height="350">
     </div>
-    <div class="drink_ingredient">
-      <h1>Ingredients</h1>
-      <p>p</p>
+    <div>
+      <h1 class="name">Name</h1>
     </div>
-    <div class="drink_description">
-      <h1>Name</h1>
-      <h2>Description</h2>
-    </div>
-    <button type="button">New Drink</button>
+    <!-- <button type="button">New Drink</button> -->
   </section>
 
 </body>

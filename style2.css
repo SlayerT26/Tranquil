@@ -1,17 +1,39 @@
 body {
   background-image: url("Bar.jpeg");
+  position: absolute;
   background-size: cover;
+  margin: 0px;
   background-repeat: no-repeat;
 }
 
- .drink_ingredient, .drink_image {
-  color: white;
+img {
+  display: block;
+  border: rgba(135, 15, 15, 0.892) solid;
+  border-width: 5px;
+  margin-left: 180px;
+  margin-top: 180px;
+  padding: 20px;
   background-color: #c46767cd;
-  display: inline-block;
+  
+}
+
+.name {
+  color: white;
 }
 
 
-.drink_image {
+div {
+  display: inline-block;
+}
+
+ /* .drink_ingredient, .drink_image {
+  color: white;
+  background-color: #c46767cd;
+  display: inline-block;
+} */
+
+
+/* .drink_image {
   padding-left: 150px;
   padding-top: 25px; 
   padding-right: 60px;
@@ -21,39 +43,11 @@ body {
   border-right: black solid;
   border-bottom: black solid;
   border-width: 5px;
-}
-.drink_ingredient {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  bottom: 270px;
-  right: 9px;
-  padding-bottom: 6px;
-  padding-right: 10px;
-  padding-top: 9px;
-  border-left: black solid;
-  border-bottom: black solid;
-  border-width: 5px;
-  text-align: center;
-  font-family: 'Great Vibes', cursive;
-}
-
-.drink_description {
-  position: relative;
-  background-color: #c46767cd;
-  color: white;
-  text-align: center;
-  width: 974px;
-  left: 100px;
-  height: 200px;
-  bottom: 275px;
-  border-top: black solid;
-  border-width: 5px;
-  font-family: 'Great Vibes', cursive;  
-}
+} */
 
 
-button {
+
+/* button {
   border: none;
   background-color: #c46767cd;
   font-size: 25px;
@@ -62,4 +56,4 @@ button {
   position: relative;
   bottom: 250px;
   left: 50%;
-}
+} */
