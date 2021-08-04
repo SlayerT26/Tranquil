@@ -10,13 +10,13 @@ img {
   display: block;
   border: rgba(135, 15, 15, 0.892) solid;
   border-width: 5px;
-  margin-left: 180px;
+  margin-left: 110px;
   margin-top: 80px;
   padding: 20px;
   background-color: #c46767cd;
 }
 
-.name {
+/* .name {
   color: white;
   width: 350px;
   height: 350px;
@@ -28,11 +28,31 @@ img {
   top: 60px;
   margin-left: 55px;
   text-align: center;
-}
+} */
 
 
 div {
   display: inline-block;
+}
+
+#cocktailIng {
+    color: white;
+    width: 500px;
+    height: 350px;
+    background-color: #c46767cd;
+    position: absolute;
+    padding: 20px;
+    border: rgba(135, 15, 15, 0.892) solid;
+    border-width: 5px;
+    top: 80px;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.Ingredient-Row {
+  display: block;
+  text-align: left;
+  font-size: 18px;
 }
 
  /* .drink_ingredient, .drink_image {
