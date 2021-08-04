@@ -14,11 +14,14 @@ img {
   margin-top: 180px;
   padding: 20px;
   background-color: #c46767cd;
-  
 }
 
 .name {
   color: white;
+  width: 350px;
+  height: 350px;
+  background-color: #c46767cd;
+  vertical-align: super;
 }
 
 
