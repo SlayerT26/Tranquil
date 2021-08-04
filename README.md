@@ -1,6 +1,6 @@
 ## Project Name
 
-# Drink of the Day!!!
+# Drink of the Day
 
 
 
