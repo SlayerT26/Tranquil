@@ -75,6 +75,10 @@ h1 {
   margin-top: 10px;
 }
 
+.instructor {
+  font-size: 25px;
+}
+
 .div {
   display: flex;
   justify-content: center;

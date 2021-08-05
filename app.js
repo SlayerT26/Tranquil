@@ -13,6 +13,11 @@ const getCocktailImg = async () => {
     const cocktailURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
     const response = await axios.get(cocktailURL);
 
+    const drinkIng = document.createElement('h1')
+    drinkIng.innerText = "Ingredient"
+
+    drinkIngredient.appendChild(drinkIng)
+
     let stringIngredient = [];
     let obj = response.data.drinks[0];
 
