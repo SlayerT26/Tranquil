@@ -1,53 +1,71 @@
 const alchohalName = document.querySelector("h1");
-const drinkDescription = document.querySelector(".drinking_description");
 const drinkIngredient = document.querySelector("#cocktailIng");
+const drinkIngredient2 = document.querySelector("#cocktailIng2");
 const drinkImage = document.querySelector("img");
+const drinkingInstruction = document.querySelector(".instruction")
+const sectionBody = document.querySelector("section")
+const form = document.querySelector('button')
+
 
 const getCocktailImg = async () => {
+
   try {
     const cocktailURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
     const response = await axios.get(cocktailURL);
 
     let stringIngredient = [];
     let obj = response.data.drinks[0];
+
     for (let x in obj) {
       if (x.includes("strIngredient")) {
         stringIngredient.push(obj[x]);
       }
     }
-    console.log(obj);
-    const measurements = stringIngredient.filter(function (a) {
+
+    const liquor = stringIngredient.filter(function (a) {
       return a != null;
     });
 
-    for (let i = 0; i < measurements.length; i++) {
-      // console.log(measurements)
+    for (let i = 0; i < liquor.length; i++) {
       const row = document.createElement("div");
       row.classList.add("Ingredient-Row");
 
-      const ingredientList = document.createElement('ul')
-      const ingredient = document.createElement("li");
-
-      // const ingredient = document.createElement("div");
-      row.appendChild(ingredientList)
-      ingredientList.appendChild(ingredient);
-      ingredient.innerText = measurements[i];
+      const ingredient = document.createElement("div");
+      row.appendChild(ingredient)
+      ingredient.innerText = `${i + 1}. ${liquor[i]}`;
 
       drinkIngredient.appendChild(row);
       ingredient.classList.add("Ingredient-ID");
     }
 
-    // for (let v in obj) {
-    //   if(v.includes(""))
-    // }
+    let stringIngredient2 = []
 
-    // console.log(measurements);
+    for (let v in obj) {
+      if (v.includes("strMeasure")) {
+        stringIngredient2.push(obj[v])
+      }
+    }
+    const measurements = stringIngredient2.filter(function (e) {
+      return e != null;
+    })
+
+    for (let d = 0; d < measurements.length; d++) {
+      const row2 = document.createElement("div")
+      row2.classList.add("Ingredient-Row2")
+
+      const measuring = document.createElement('div')
+      row2.appendChild(measuring)
+      measuring.innerText = `${d + 1}. ${measurements[d]}`
+
+      drinkIngredient2.appendChild(row2)
+      measuring.classList.add("Ingredient-ID2")
+    }
 
     const cocktail = response.data.drinks[0]
-    // console.log(cocktail)
     appendImage(cocktail)
 
-    return measurements;
+    return cocktail
+
   } catch (e) {
     console.error(e);
   }
@@ -58,7 +76,6 @@ getCocktailImg();
 
 function appendImage(ImgURL) {
   drinkImage.src = ImgURL.strDrinkThumb
-
   const drinkName = ImgURL
 
   getCocktailName(drinkName)
@@ -69,9 +86,30 @@ function appendImage(ImgURL) {
 function getCocktailName(drinkName) {
   alchohalName.textContent = drinkName.strDrink
 
+  getCocktailInstruction(drinkName)
+
+  return drinkName
+}
+
+function getCocktailInstruction(drinkInstruction) {
+
+  console.log(drinkInstruction)
+  drinkingInstruction.textContent = drinkInstruction.strInstructions
+
+  getCocktailMeasurement(drinkInstruction)
+
+  return drinkInstruction
+}
+
+function getCocktailMeasurement(count) {
 
 }
 
-function getCocktailMeasurment() {
+sectionBody.addEventListener('click', getCocktailImg, getCocktailImg)
 
+function removeCocktail(element) {
+  while (element.lastChild) {
+    element.removeChild(element.lastChild)
+  }
 }
+

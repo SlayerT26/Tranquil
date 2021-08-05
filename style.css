@@ -8,7 +8,7 @@ header {
 }
 .heading {
   font-family: 'Great Vibes', cursive;
-  color: rgb(211, 190, 190);
+  color: rgb(227, 217, 217);
   font-size: 60px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -23,7 +23,7 @@ body {
 
 .middle {
   text-align: center;
-  color: rgb(211, 190, 190);
+  color: rgb(227, 217, 217);
   background-color: #c46767cd;
   margin-right: 300px;
   margin-left: 300px;
