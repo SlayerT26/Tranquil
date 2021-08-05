@@ -7,19 +7,17 @@ const sectionBody = document.querySelector("section")
 const form = document.querySelector('button')
 
 
+
 const getCocktailImg = async () => {
+
 
   try {
     const cocktailURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
     const response = await axios.get(cocktailURL);
 
-    const drinkIng = document.createElement('h1')
-    drinkIng.innerText = "Ingredient"
-
-    drinkIngredient.appendChild(drinkIng)
-
     let stringIngredient = [];
     let obj = response.data.drinks[0];
+
 
 
     for (let x in obj) {
@@ -35,6 +33,10 @@ const getCocktailImg = async () => {
     while (drinkIngredient.firstChild) {
       drinkIngredient.removeChild(drinkIngredient.firstChild);
     }
+    const drinkIng = document.createElement('h1')
+    drinkIng.innerText = "Ingredient"
+    drinkIngredient.append(drinkIng)
+
     for (let i = 0; i < liquor.length; i++) {
 
       const row = document.createElement("div");
@@ -44,6 +46,8 @@ const getCocktailImg = async () => {
       drinkIngredient.append(ingredient)
 
       ingredient.innerText = `${i + 1}. ${liquor[i]}`;
+
+      // 
 
       drinkIngredient.appendChild(row);
       ingredient.classList.add("Ingredient-ID");
@@ -63,6 +67,9 @@ const getCocktailImg = async () => {
     while (drinkIngredient2.firstChild) {
       drinkIngredient2.removeChild(drinkIngredient2.firstChild);
     }
+    const drinkMea = document.createElement('h1')
+    drinkMea.innerText = "Measurement"
+    drinkIngredient2.append(drinkMea)
 
     for (let d = 0; d < measurements.length; d++) {
       const row2 = document.createElement("div")
