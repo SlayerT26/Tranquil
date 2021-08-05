@@ -2,9 +2,18 @@ body {
   background-image: url("Bar.jpeg");
   position: absolute;
   background-size: cover;
-  margin: 0px;
   background-repeat: no-repeat;
   background-color: rgba(19, 1, 1, 0.817);
+  width: 100%;
+}
+
+.section {
+  display: flex;
+}
+
+.drink_image, #cocktailIng, #cocktailIng2 {
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 .drink_image {
@@ -12,75 +21,66 @@ body {
   display: block;
   border: rgba(135, 15, 15, 0.892) solid;
   border-width: 5px;
-  margin-left: 140px;
-  margin-top: 60px;
-  padding: 20px;
+  padding: 0px 10px 10px 10px;
   background-color: #c46767cd;
-}
-
-h1 {
-  color: rgb(227, 217, 217);
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-size: 30px;
-}
-
-.instruction {
-  background-color: #c46767cd;
-  padding: 10px;
-  text-align: center;
-  border: rgba(135, 15, 15, 0.892) solid;
-  display: flex;
-  margin-top: 20px;
-  align-self: center;
-  font-size: 15px;
-  color: rgb(227, 217, 217);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-.drink_image, #cocktailIng, #cocktailIng2 { 
-  display: inline-block;
 }
 
 #cocktailIng {
     color: rgb(227, 217, 217);
-    position: absolute;
-    width: 150px;
-    height: 380px;
+    width: 350px;
+    height: 400px;
     background-color: #c46767cd;
-    padding: 10px;
+    padding: 15px;
     border: rgba(135, 15, 15, 0.892) solid;
     border-width: 5px;
-    top: 60px;
-    margin-left: 55px;
-    text-align: center;
+    font-size: 19px;
 }
 
 #cocktailIng2 {
   color: rgb(227, 217, 217);
-  position: absolute;
-  width: 150px;
-  height: 380px;
+  width: 350px;
+  height: 400px;
   background-color: #c46767cd;
-  padding: 10px;
   border: rgba(135, 15, 15, 0.892) solid;
   border-width: 5px;
-  top: 60px;
-  margin-left: 55px;
-  text-align: center;
-  margin-left: 300px;
+  padding: 15px;
 }
+
+h1 {
+  color: rgb(227, 217, 217);
+  font-size: 30px;
+}
+
+
 
 .Ingredient-Row, .Ingredient-Row2 {
   display: block;
   text-align: left;
   font-size: 20px;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
+.section2 {
+  display: flex;
+  justify-content: center;
+}
 
-button {
+.drink_instruction {
+  background-color: #c46767cd;
+  border: rgba(135, 15, 15, 0.892) solid;
+  border-width: 5px;
+  color: rgb(227, 217, 217);
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+}
+
+ button {
   background-color: #c46767cd;
   margin-top: 10px;
   width: 200px;
@@ -89,5 +89,4 @@ button {
   border: rgba(135, 15, 15, 0.892) solid;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(227, 217, 217);
-  margin-left: 50%;
-}
+} 

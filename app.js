@@ -16,6 +16,7 @@ const getCocktailImg = async () => {
     let stringIngredient = [];
     let obj = response.data.drinks[0];
 
+
     for (let x in obj) {
       if (x.includes("strIngredient")) {
         stringIngredient.push(obj[x]);
@@ -26,12 +27,17 @@ const getCocktailImg = async () => {
       return a != null;
     });
 
+    while (drinkIngredient.firstChild) {
+      drinkIngredient.removeChild(drinkIngredient.firstChild);
+    }
     for (let i = 0; i < liquor.length; i++) {
+
       const row = document.createElement("div");
       row.classList.add("Ingredient-Row");
 
       const ingredient = document.createElement("div");
-      row.appendChild(ingredient)
+      drinkIngredient.append(ingredient)
+
       ingredient.innerText = `${i + 1}. ${liquor[i]}`;
 
       drinkIngredient.appendChild(row);
@@ -48,6 +54,10 @@ const getCocktailImg = async () => {
     const measurements = stringIngredient2.filter(function (e) {
       return e != null;
     })
+
+    while (drinkIngredient2.firstChild) {
+      drinkIngredient2.removeChild(drinkIngredient2.firstChild);
+    }
 
     for (let d = 0; d < measurements.length; d++) {
       const row2 = document.createElement("div")
@@ -101,11 +111,8 @@ function getCocktailInstruction(drinkInstruction) {
   return drinkInstruction
 }
 
-function getCocktailMeasurement(count) {
 
-}
-
-sectionBody.addEventListener('click', getCocktailImg, getCocktailImg)
+form.addEventListener('click', getCocktailImg)
 
 function removeCocktail(element) {
   while (element.lastChild) {
