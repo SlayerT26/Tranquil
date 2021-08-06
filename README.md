@@ -123,7 +123,8 @@ Create a webpage, that will search a random drink. Give its name, ingredients, a
 
 ## Code Snippet-----
 
-const drinkIng = document.createElement('h1')
+
+``const drinkIng = document.createElement('h1')
     drinkIng.innerText = "Ingredient"
     drinkIngredient.append(drinkIng)
     // Create a for loop to go through each variable with info and stop when the info has stopped
