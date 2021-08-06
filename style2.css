@@ -1,8 +1,7 @@
 body {
   background-image: url("Bar.jpeg");
-  position: absolute;
+  position: relative;
   background-size: cover;
-  background-repeat: no-repeat;
   background-color: rgba(19, 1, 1, 0.817);
   width: 100%;
 }
@@ -12,7 +11,7 @@ body {
 }
 
 .drink_image, #cocktailIng, #cocktailIng2 {
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -44,11 +43,13 @@ body {
   border: rgba(135, 15, 15, 0.892) solid;
   border-width: 5px;
   padding: 15px;
+  font-size: 19px;
 }
 
 h1 {
   color: rgb(227, 217, 217);
   font-size: 30px;
+  text-align: center;
 }
 
 
@@ -73,6 +74,7 @@ h1 {
   text-align: center;
   font-size: 19px;
   margin-top: 10px;
+  padding: 0px 5px 0px 5px;
 }
 
 .instructor {
@@ -94,3 +96,29 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(227, 217, 217);
 } 
+
+@media screen and (max-width:700px){
+  body {
+    background-image: url("bar2.jpeg");
+    width: 700px;
+    height: 700px;
+  }
+
+  .section {
+    width: 100%;
+    display: block;
+  }
+
+  #cocktailIng  {
+    font-size: 30px;
+  }
+  .Ingredient-ID2 {
+    font-size: 30px;
+  }
+  .instruction {
+    font-size: 25px;
+  }
+  button {
+    font-size: 20px;
+  }
+}
