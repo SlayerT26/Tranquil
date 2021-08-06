@@ -81,7 +81,7 @@ Create a randomizer button
 |August 3| Pseudocode / Coding/ Javascript API/ MVP Start| Complete
 |August 4| MVP completion/ Initial Clickable Model  | Complete
 |August 5| PostMVP/ CSS Fine Detailing/ Last minute Update | Complete
-|August 6| Presentations | Incomplete
+|August 6| Presentations | Complete
 
 
 
@@ -147,3 +147,5 @@ Create a webpage, that will search a random drink. Give its name, ingredients, a
  Updated time frame 8/5
 
  Updated MVP and Post MVP 8/5
+ 
+ Final Update to Read.me, Index.html's, Style.CSS's, and App.js 8/6
