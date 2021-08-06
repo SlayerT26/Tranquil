@@ -48,7 +48,7 @@ const getCocktailImg = async () => {
 
       // Append info too created elements
       const ingredient = document.createElement("div");
-      drinkIngredient.append(ingredient)
+      row.append(ingredient)
 
       ingredient.innerText = `${i + 1}. ${liquor[i]}`;
 
